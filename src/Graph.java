@@ -1,6 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ *  Name - L. W. P. D. T. Bandara
+ *  Student Id - w2083155
+ *  Represents a graph for a flow network.
+ */
 public class Graph {
 
     private final int n;
@@ -14,7 +19,7 @@ public class Graph {
     }
 
     public void addEdge(int from, int to, int capacity) {
-        Edge e1 = new Edge(from, to, capacity);
+        Edge e1 = new Edge(from, to, capacity); // Forward edge
         Edge e2 = new Edge(to, from, 0); // Residual edge
         e1.residual = e2;
         e2.residual = e1;

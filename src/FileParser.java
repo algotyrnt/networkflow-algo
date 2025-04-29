@@ -2,6 +2,11 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ *  Name - L. W. P. D. T. Bandara
+ *  Student Id - w2083155
+ *  File Parser
+ */
 public class FileParser {
 
     public static Graph parseFile(String fileName) throws IOException {

@@ -1,3 +1,8 @@
+/**
+ *  Name - L. W. P. D. T. Bandara
+ *  Student Id - w2083155
+ *  Represents an edge in a flow network.
+ */
 public class Edge {
 
     public final int from, to;
